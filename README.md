@@ -1,1 +1,4 @@
-# mern-shopping-car
+Tech stack
+	Create React App
+	Redux
+	React-Router
