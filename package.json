@@ -1,0 +1,27 @@
+{
+  "name": "mern-shopping-car",
+  "version": "1.0.0",
+  "description": "Tech stack\r \tCreate React App\r \tRedux\r \tReact-Router",
+  "main": "index.js",
+  "scripts": {
+    "server": "babel-node server.js --presets env",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trinhhuynh1982/mern-shopping-car.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trinhhuynh1982/mern-shopping-car/issues"
+  },
+  "homepage": "https://github.com/trinhhuynh1982/mern-shopping-car#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {}
+}
