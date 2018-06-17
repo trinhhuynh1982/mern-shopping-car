@@ -4,7 +4,7 @@
   "description": "Tech stack\r \tCreate React App\r \tRedux\r \tReact-Router",
   "main": "server.js",
   "scripts": {
-    "start": "babel-node server.js --presets env",
+    "start": "node server.js",
     "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "repository": {
