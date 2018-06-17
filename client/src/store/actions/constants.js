@@ -1,0 +1,2 @@
+export const GET_CUSTOMERS = "GET_CUSTOMERS";
+export const UPDATE_CUSTOMERS = "UPDATE_CUSTOMERS";
